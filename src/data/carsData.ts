@@ -155,8 +155,10 @@ export const models = [
     engine: '3S-GTE 2.0L Turbo',
     power: '245 л.с.',
     description: 'Среднемоторный спорткар с турбонаддувом',
-    image: '/placeholder.svg',
-    gallery: ['/placeholder.svg']
+    image: 'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/00e9779f-c7cf-4f9e-9f49-55377f92bcf4.jpg',
+    gallery: [
+      'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/00e9779f-c7cf-4f9e-9f49-55377f92bcf4.jpg'
+    ]
   }
 ];
 
