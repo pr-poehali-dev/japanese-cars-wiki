@@ -197,7 +197,7 @@ export const models = [
     year: '2010-2012',
     engine: '1LR-GUE 4.8L V10',
     power: '560 л.с.',
-    description: 'Эксклюзивный суперкар с V10 от Yamaha, выпущено 500 экземпляров',
+    description: 'Эксклюзивный суперкар с V10 и выхлопной системой от Yamaha, выпущено 500 экземпляров',
     image: 'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/90dde566-a554-428a-8c37-4411266a121a.jpg',
     gallery: [
       'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/90dde566-a554-428a-8c37-4411266a121a.jpg'
