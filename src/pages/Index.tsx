@@ -62,8 +62,10 @@ const models = [
     engine: '13B-REW Twin-Turbo Rotary',
     power: '280 л.с.',
     description: 'Последняя и самая совершенная модель с роторным двигателем',
-    image: '/placeholder.svg',
-    gallery: ['/placeholder.svg']
+    image: 'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/07bad7c4-4be5-4432-83fe-b44176b22a38.jpg',
+    gallery: [
+      'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/07bad7c4-4be5-4432-83fe-b44176b22a38.jpg'
+    ]
   },
   {
     id: 5,
@@ -73,17 +75,93 @@ const models = [
     engine: 'EJ257 2.5L Turbo',
     power: '310 л.с.',
     description: 'Легенда раллийного спорта с симметричным полным приводом',
+    image: 'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/638471c7-4d2f-4b3e-896e-ad2137c0de09.jpg',
+    gallery: [
+      'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/638471c7-4d2f-4b3e-896e-ad2137c0de09.jpg'
+    ]
+  },
+  {
+    id: 6,
+    name: 'Mitsubishi Lancer Evolution X',
+    manufacturer: 'mitsubishi',
+    year: '2007-2016',
+    engine: '4B11T 2.0L Turbo',
+    power: '295 л.с.',
+    description: 'Финальное поколение легендарной Эво с двухклатчевой КПП',
+    image: 'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/dc30a7ff-855b-4d92-af75-7da26a02d147.jpg',
+    gallery: [
+      'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/dc30a7ff-855b-4d92-af75-7da26a02d147.jpg'
+    ]
+  },
+  {
+    id: 7,
+    name: 'Nissan Skyline GT-R R34',
+    manufacturer: 'nissan',
+    year: '1999-2002',
+    engine: 'RB26DETT 2.6L Twin-Turbo',
+    power: '280 л.с.',
+    description: 'Последний Skyline GT-R с легендарным RB26, икона JDM культуры',
+    image: 'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/6ccb27e7-be55-4028-b560-d60a35d0caf1.jpg',
+    gallery: [
+      'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/6ccb27e7-be55-4028-b560-d60a35d0caf1.jpg'
+    ]
+  },
+  {
+    id: 8,
+    name: 'Toyota AE86 Trueno',
+    manufacturer: 'toyota',
+    year: '1983-1987',
+    engine: '4A-GE 1.6L',
+    power: '130 л.с.',
+    description: 'Культовый дрифт-кар, прославленный в Initial D',
+    image: 'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/e9bd20d6-b53e-4dd7-96ad-2d33a1fe26e0.jpg',
+    gallery: [
+      'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/e9bd20d6-b53e-4dd7-96ad-2d33a1fe26e0.jpg'
+    ]
+  },
+  {
+    id: 9,
+    name: 'Honda S2000',
+    manufacturer: 'honda',
+    year: '1999-2009',
+    engine: 'F20C 2.0L',
+    power: '250 л.с.',
+    description: 'Атмосферный родстер с высочайшей литровой мощностью',
+    image: 'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/b500378f-ae2b-46b1-adc7-a5e352a545cd.jpg',
+    gallery: [
+      'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/b500378f-ae2b-46b1-adc7-a5e352a545cd.jpg'
+    ]
+  },
+  {
+    id: 10,
+    name: 'Mazda MX-5 Miata',
+    manufacturer: 'mazda',
+    year: '1989-настоящее время',
+    engine: 'Различные 1.6-2.0L',
+    power: '130-184 л.с.',
+    description: 'Самый популярный родстер в истории, символ удовольствия от вождения',
     image: '/placeholder.svg',
     gallery: ['/placeholder.svg']
   },
   {
-    id: 6,
-    name: 'Mitsubishi Lancer Evolution',
-    manufacturer: 'mitsubishi',
-    year: '1992-2016',
-    engine: '4G63T 2.0L Turbo',
-    power: '280 л.с.',
-    description: 'Икона автоспорта с системой полного привода AYC',
+    id: 11,
+    name: 'Nissan 370Z',
+    manufacturer: 'nissan',
+    year: '2009-2020',
+    engine: 'VQ37VHR 3.7L V6',
+    power: '332 л.с.',
+    description: 'Атмосферный V6 спорткар в традициях Z-серии',
+    image: '/placeholder.svg',
+    gallery: ['/placeholder.svg']
+  },
+  {
+    id: 12,
+    name: 'Toyota MR2 SW20',
+    manufacturer: 'toyota',
+    year: '1989-1999',
+    engine: '3S-GTE 2.0L Turbo',
+    power: '245 л.с.',
+    description: 'Среднемоторный спорткар с турбонаддувом',
     image: '/placeholder.svg',
     gallery: ['/placeholder.svg']
   }
