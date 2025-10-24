@@ -133,8 +133,10 @@ export const models = [
     engine: 'Различные 1.6-2.0L',
     power: '130-184 л.с.',
     description: 'Самый популярный родстер в истории, символ удовольствия от вождения',
-    image: '/placeholder.svg',
-    gallery: ['/placeholder.svg']
+    image: 'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/56048f4e-d645-473b-a882-a2c6d48d74f6.jpg',
+    gallery: [
+      'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/56048f4e-d645-473b-a882-a2c6d48d74f6.jpg'
+    ]
   },
   {
     id: 11,
@@ -144,8 +146,10 @@ export const models = [
     engine: 'VQ37VHR 3.7L V6',
     power: '332 л.с.',
     description: 'Атмосферный V6 спорткар в традициях Z-серии',
-    image: '/placeholder.svg',
-    gallery: ['/placeholder.svg']
+    image: 'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/ea7ef4f8-4923-4762-88e0-c9b6ec32cf01.jpg',
+    gallery: [
+      'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/ea7ef4f8-4923-4762-88e0-c9b6ec32cf01.jpg'
+    ]
   },
   {
     id: 12,
@@ -158,6 +162,58 @@ export const models = [
     image: 'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/00e9779f-c7cf-4f9e-9f49-55377f92bcf4.jpg',
     gallery: [
       'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/00e9779f-c7cf-4f9e-9f49-55377f92bcf4.jpg'
+    ]
+  },
+  {
+    id: 13,
+    name: 'Nissan Silvia S15',
+    manufacturer: 'nissan',
+    year: '1999-2002',
+    engine: 'SR20DET 2.0L Turbo',
+    power: '250 л.с.',
+    description: 'Последняя генерация Silvia, икона дрифтинга',
+    image: 'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/b2a5a748-a1be-465f-a348-2328c1c84f46.jpg',
+    gallery: [
+      'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/b2a5a748-a1be-465f-a348-2328c1c84f46.jpg'
+    ]
+  },
+  {
+    id: 14,
+    name: 'Honda Civic Type R',
+    manufacturer: 'honda',
+    year: '2017-настоящее время',
+    engine: 'K20C1 2.0L Turbo',
+    power: '320 л.с.',
+    description: 'Самый быстрый переднеприводный хот-хэтч на Нюрбургринге',
+    image: 'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/91753efd-c18b-4601-8599-1446d15a2122.jpg',
+    gallery: [
+      'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/91753efd-c18b-4601-8599-1446d15a2122.jpg'
+    ]
+  },
+  {
+    id: 15,
+    name: 'Lexus LFA',
+    manufacturer: 'toyota',
+    year: '2010-2012',
+    engine: '1LR-GUE 4.8L V10',
+    power: '560 л.с.',
+    description: 'Эксклюзивный суперкар с V10 от Yamaha, выпущено 500 экземпляров',
+    image: 'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/90dde566-a554-428a-8c37-4411266a121a.jpg',
+    gallery: [
+      'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/90dde566-a554-428a-8c37-4411266a121a.jpg'
+    ]
+  },
+  {
+    id: 16,
+    name: 'Acura NSX (2016)',
+    manufacturer: 'honda',
+    year: '2016-2022',
+    engine: 'Hybrid 3.5L Twin-Turbo V6',
+    power: '573 л.с.',
+    description: 'Гибридный суперкар нового поколения с тремя электромоторами',
+    image: 'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/275fee23-e00e-441a-a15a-7bcfe7d1a6d0.jpg',
+    gallery: [
+      'https://cdn.poehali.dev/projects/62297ba0-9243-4119-b295-186f4229121f/files/275fee23-e00e-441a-a15a-7bcfe7d1a6d0.jpg'
     ]
   }
 ];
